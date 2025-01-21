@@ -2,9 +2,11 @@ $background-light: #fff;
 $text-color-light: #212121;
 $secondary-text-color: #999b9a;
 $input-bg-light: rgba(52, 52, 52, 0.1);
-
 $background-dark: #343434;
 $text-color-dark: #fff;
+$background-green:#3D948C;
+$white: #fff;
+$form-input-bg: #41a297;
 
 // Для теми light
 :root {
@@ -12,6 +14,9 @@ $text-color-dark: #fff;
   --text-color: #{$text-color-light};
   --secondary-text-color: #{$secondary-text-color};
   --input-bg: #{$input-bg-light};
+  --background-green: #{$background-green};
+  --white: #{$white};
+  --form-input-bg: #{$form-input-bg};
 }
 
 // Для теми dark
