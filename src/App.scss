@@ -1,0 +1,21 @@
+$background-light: #fff;
+$text-color-light: #212121;
+$secondary-text-color: #999b9a;
+$input-bg-light: rgba(52, 52, 52, 0.1);
+
+$background-dark: #343434;
+$text-color-dark: #fff;
+
+// Для теми light
+:root {
+  --background: #{$background-light};
+  --text-color: #{$text-color-light};
+  --secondary-text-color: #{$secondary-text-color};
+  --input-bg: #{$input-bg-light};
+}
+
+// Для теми dark
+[data-theme="dark"] {
+  --background: #{$background-dark};
+  --text-color: #{$text-color-dark};
+}

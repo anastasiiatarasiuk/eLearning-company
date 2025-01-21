@@ -1,0 +1,100 @@
+.custom-carousel {
+  display: flex;
+  gap: 25px;
+  flex-direction: row-reverse;
+
+  .carousel-inner {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .slider-img {
+    width: 400px;
+    min-height: 400px;
+  }
+
+  .slide-group {
+    display: flex;
+    gap: 25px;
+  }
+
+  .carousel-item {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+  }
+
+  .carousel-item.active {
+    display: flex;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+
+  .carousel-indicators {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    min-width: 35px;
+    gap: 10px;
+    right: 20px;
+
+    [data-bs-target] {
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      margin: 0 5px;
+      border-radius: 50%;
+      background-color: #979090;
+      transition: 0.6s;
+    }
+
+    .active {
+      width: 25px;
+      height: 25px;
+      background-color: #fff;
+    }
+  }
+
+  .slide-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+    .caption {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+    }
+
+    .card-title {
+      font-weight: 400;
+      font-size: 25px;
+      text-align: center;
+      color: #fff;
+      width: 160px;
+    }
+
+    .icon {
+      fill: none;
+      stroke: #fff;
+      width: 61px;
+      height: 41px;
+      margin-bottom: 12px;
+    }
+  }
+}
