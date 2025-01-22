@@ -5,7 +5,7 @@ import "./Header.scss";
 const Header = () => {
   return (
     <>
-      <header className="header">
+      <header className="header" id="home">
         <div className="container content">
           <div className="card">
             <img src="/images/card-logo.webp" alt="logo" className="logoImg" />

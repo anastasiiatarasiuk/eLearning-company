@@ -3,7 +3,7 @@ import "./TalkToUs.scss";
 
 const TalkToUs = () => {
   return (
-    <div className="talk-to-us">
+    <div className="talk-to-us" id="contact">
       <div className="talk-to-us__content">
         <div className="talk-to-us__title-container">
           <h2 className="talk-to-us__title">Talk To Us About Your Project</h2>

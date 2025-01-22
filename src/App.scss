@@ -7,6 +7,10 @@ $text-color-dark: #fff;
 $background-green:#3D948C;
 $white: #fff;
 $form-input-bg: #41a297;
+$footer-bg: #414141;
+$footer-text: #929292;
+$copyright-bg: #383838;
+$copyright-text:  #595959;
 
 // Для теми light
 :root {
@@ -17,6 +21,10 @@ $form-input-bg: #41a297;
   --background-green: #{$background-green};
   --white: #{$white};
   --form-input-bg: #{$form-input-bg};
+  --footer-bg: #{$footer-bg};
+  --footer-text:#{$footer-text};
+  --copyright-bg: #{$copyright-bg};
+  --copyright-text:#{$copyright-text};
 }
 
 // Для теми dark
