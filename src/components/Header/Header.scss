@@ -1,10 +1,9 @@
 .header {
   padding: 140px 140px;
   width: 100%;
-  height: 690px;
   background: url("/images/header-bg.webp");
   background-size: cover;
-  border-bottom: 10px solid #3d948e;
+  border-bottom: 10px solid var(--background-green);
 
   .content{
     display: flex;
@@ -14,7 +13,7 @@
 }
 
 .card {
-  background-color: var(--background);
+  background-color: var(--card-bg);
   padding: 144px 41px 55px;
   width: 260px;
   box-shadow: 0 5px 20px 0 rgba(52, 52, 52, 0.1);

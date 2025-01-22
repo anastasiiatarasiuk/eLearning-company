@@ -1,0 +1,25 @@
+.navigation {
+  background: var(--background-menu);
+  padding: 9px 140px;
+  position: sticky;
+  top: 0;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__list {
+    .list {
+      display: flex;
+      gap: 37px;
+
+      &__item {
+        font-weight: 300;
+        font-size: 14px;
+        color: var(--white);
+      }
+    }
+  }
+}
