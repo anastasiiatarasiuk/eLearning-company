@@ -12,6 +12,8 @@ $footer-bg: #414141;
 $footer-text: #929292;
 $copyright-bg: #383838;
 $copyright-text:  #595959; 
+$yellow: #e7d08c;
+$instructional-text: #424242;
 
 // Для теми light
 :root {
@@ -28,6 +30,9 @@ $copyright-text:  #595959;
   --copyright-text:#{$copyright-text};
   --background-menu: #{$background-dark};
   --card-bg: #{$white};
+  --section-title:#{$secondary-text-color};
+  --yellow: #{$yellow};
+  --instructional-text: #{$instructional-text};
 }
 
 // Для теми dark
@@ -36,4 +41,6 @@ $copyright-text:  #595959;
   --text-color: #{$text-color-dark};
   --card-bg: #{$background-light-dark};
 --background-menu:#{$background-light-dark};
+ --section-title:#{$secondary-text-color};
+ --instructional-text: #{$white};
 }
