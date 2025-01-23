@@ -7,7 +7,7 @@ const OurClients = () => {
       <section className="clients">
         <div className="clients__container">
           <div className="clients__content">
-            <div className="clients__work">
+            <div>
               <h3 className="clients__work-title">
                 Our clients love the work we do
               </h3>

@@ -2,6 +2,7 @@
   background: var(--background-menu);
   padding: 9px 140px;
   position: sticky;
+  z-index: 1;
   top: 0;
 
   &__content {

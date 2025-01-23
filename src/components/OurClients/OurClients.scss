@@ -2,22 +2,13 @@
   padding: 0px 140px 0 128px;
 
   &__container {
-    padding: 50px 50px 50px 0px;
-    border-right: 3px solid var(--background-green);
-    border-top: 1.5px solid var(--background-green);
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 0px;
-    margin-left: 38px;
+    margin: 50px 50px 50px 0px;
   }
 
   &__content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-  }
-
-  &__work {
-    width: 500px;
+    gap: 108px;
   }
 
   &__work-title {

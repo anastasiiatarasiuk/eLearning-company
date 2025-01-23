@@ -1,16 +1,10 @@
 .instructional {
   padding: 0px 140px 0 128px;
-
-  &__container {
-    padding: 50px 0px 50px 60px;
-    border-left: 3px solid var(--background-green);
-    border-top: 3px solid var(--background-green);
-    border-bottom: 1.5px solid var(--background-green);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 40px;
-    margin-right: 19px;
+&__image{
+  position: absolute;
+}
+  &__container { 
+    margin: 50px 0px 50px 50px; 
   }
 
   &__title {
@@ -23,7 +17,7 @@
   &__content {
     display: flex;
     align-items: center;
-    gap: 108px;
+    gap: 100px;
   }
 
   &__learning-title {

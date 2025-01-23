@@ -1,0 +1,62 @@
+.design {
+  padding: 0px 140px 35px 128px;
+
+  &__image {
+    position: absolute;
+    margin-top: 177px;
+  }
+
+  &__container {
+    background-image: url(/images/designer-bg.webp);
+    background-repeat: no-repeat;
+    margin: 50px 0px 0px -128px;
+    width: 1240px;
+    padding-top: 31px;
+    padding-left: 140px;
+    padding-right: 115px;
+    position: relative;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    border-bottom: 11px solid var(--background-green);
+    margin-bottom: 40px;
+  }
+
+  &__title {
+    width: 437px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__heading {
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: var(--instructional-text);
+    margin-bottom: 5px;
+  }
+
+  &__subtitle {
+    color: var(--instructional-text);
+    font-weight: 250;
+    font-size: 35px;
+    line-height: 100%;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+  }
+
+  &__button {
+    width: 198px;
+    padding: 15px;
+    color: var(--white);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    border-radius: 25px;
+    background: var(--background-green);
+  }
+}

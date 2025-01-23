@@ -5,6 +5,7 @@ const InstructionalDesign = () => {
   return (
     <>
       <section className="instructional" id="instructional">
+        <img src="/images/Vector-12.png" className="instructional__image" />
         <div className="instructional__container">
           <h2 className="instructional__title">Instructional Design</h2>
           <div className="instructional__content">
