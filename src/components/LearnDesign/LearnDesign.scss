@@ -9,7 +9,7 @@
   &__container {
     background-image: url(/images/designer-bg.webp);
     background-repeat: no-repeat;
-    margin: 50px 0px 0px -128px;
+    margin: 0px 0px 0px -128px;
     width: 1240px;
     padding-top: 31px;
     padding-left: 140px;
@@ -29,6 +29,17 @@
     width: 437px;
     display: flex;
     flex-direction: column;
+    
+    &::after{
+      content: '';
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      border-radius: 50px;
+      background: var(--green-full);
+      right: -60px;
+      top: 170px;
+    }
   }
 
   &__heading {

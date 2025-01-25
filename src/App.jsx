@@ -5,6 +5,7 @@ import InstructionalDesign from "./components/InstructionalDesign/InstructionalD
 import LearnDesign from "./components/LearnDesign/LearnDesign";
 import Navigation from "./components/Navigation/Navigation";
 import OurClients from "./components/OurClients/OurClients";
+import Services from "./components/Services/Services";
 import TalkToUs from "./components/TalkToUs/TalkToUs";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <>
       <Header />
       <Navigation />
+      <Services />
       <LearnDesign />
       <InstructionalDesign />
       <OurClients />

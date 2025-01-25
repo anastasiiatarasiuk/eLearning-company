@@ -12,6 +12,18 @@
     font-weight: 600;
     font-size: 50px;
     margin-bottom: 35px;
+    position: relative;
+
+    &::before{
+      content: '';
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      border-radius: 50px;
+      background: var(--green-full);
+      left: -60px;
+      top: 27px;
+    }
   }
 
   &__content {

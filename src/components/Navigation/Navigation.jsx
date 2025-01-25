@@ -12,7 +12,7 @@ const Navigation = () => {
                 <a href="#home">Home</a>
               </li>
               <li className="list__item">
-                <a href="#">Services</a>
+                <a href="#services">Services</a>
               </li>
               <li className="list__item">
                 <a href="#instructional">Instructional Design</a>

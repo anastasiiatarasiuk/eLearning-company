@@ -2,6 +2,7 @@ $background-light: #fff;
 $text-color: #212121;
 $secondary-text-color: #999b9a;
 $input-bg-light: rgba(52, 52, 52, 0.1);
+$input-bg-dark:  rgba(255, 255, 255, 0.1);
 $background-dark: #343434;
 $background-light-dark:  #414141;
 $text-color-dark: #fff;
@@ -14,6 +15,9 @@ $copyright-bg: #383838;
 $copyright-text:  #595959; 
 $yellow: #e7d08c;
 $instructional-text: #424242;
+$green: #29B4AD;
+$yellow-light: #dcce90;
+$gray: #B5B7B6;
 
 // Для теми light
 :root {
@@ -34,6 +38,16 @@ $instructional-text: #424242;
   --yellow: #{$yellow};
   --instructional-text: #{$instructional-text};
   --design-text: #{$instructional-text};
+  --input-text: #{$background-dark};
+  --green:#{$green};
+  --yellow-light:#{$yellow-light};
+  --gray:#{$gray};
+  --green-full:#{$background-green};
+  --green-stroke:#{$green};
+  --icon-close:#{$background-dark};
+  --icon-arrow:#{$background-dark};
+  --page-number:#{$background-dark};
+  --filter-text:#{$background-dark};
 }
 
 // Для теми dark
@@ -41,7 +55,12 @@ $instructional-text: #424242;
   --background: #{$background-dark};
   --text-color: #{$text-color-dark};
   --card-bg: #{$background-light-dark};
---background-menu:#{$background-light-dark};
- --section-title:#{$secondary-text-color};
- --instructional-text: #{$white};
+  --background-menu:#{$background-light-dark};
+  --section-title:#{$secondary-text-color};
+  --instructional-text: #{$white};
+  --input-bg:#{$input-bg-dark};
+  --icon-close: #{$white};
+  --input-text:#{$white};
+  --page-number:#{$white};
+  --filter-text:#{$white};
 }
