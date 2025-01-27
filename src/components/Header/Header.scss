@@ -5,31 +5,31 @@
   background-size: cover;
   border-bottom: 10px solid var(--background-green);
 
-  .content{
+  &__content {
     display: flex;
     height: 400px;
     gap: 25px;
   }
-}
 
-.card {
-  background-color: var(--card-bg);
-  padding: 144px 41px 55px;
-  width: 260px;
-  box-shadow: 0 5px 20px 0 rgba(52, 52, 52, 0.1);
-  border-radius: 20px;
+  &__card {
+    background-color: var(--card-bg);
+    padding: 144px 41px 55px;
+    width: 260px;
+    box-shadow: 0 5px 20px 0 var(--shadow-light);
+    border-radius: 20px;
 
-  .logoImg {
-    padding-bottom: 5px;
-    border-bottom: 1.04px solid #ded098;
-    margin-bottom: 15px;
-  }
+    &-logo {
+      padding-bottom: 5px;
+      border-bottom: 1.04px solid var(--yellow-light);
+      margin-bottom: 15px;
+    }
 
-  .cardText {
-    width: 129px;
-    font-size: 16px;
-    font-weight: 500;
-    margin: 0 auto;
-    margin-bottom: 55px;
+    &-text {
+      width: 129px;
+      font-size: 16px;
+      font-weight: 500;
+      margin: 0 auto;
+      margin-bottom: 55px;
+    }
   }
 }

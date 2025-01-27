@@ -40,7 +40,6 @@
   }
 }
 
-
 .custom-pagination {
   display: flex;
   justify-content: center;
@@ -62,15 +61,12 @@
   justify-content: center;
 }
 
-
-
 .custom-pagination .page-item.active .page-link {
   color: var(--text-color);
   background-color:  var(--input-bg); 
   border-radius: 50%;
   opacity: 1;
 }
-
 
 .visually-hidden{
   display: none !important; 

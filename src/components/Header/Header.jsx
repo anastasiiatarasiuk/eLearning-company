@@ -6,10 +6,16 @@ const Header = () => {
   return (
     <>
       <header className="header" id="home">
-        <div className="container content">
-          <div className="card">
-            <img src="/images/card-logo.webp" alt="logo" className="logoImg" />
-            <p className="cardText">Taking Learning to the Next Level</p>
+        <div className="header__content">
+          <div className="header__card">
+            <img
+              src="/images/card-logo.webp"
+              alt="logo"
+              className="header__card-logo"
+            />
+            <p className="header__card-text">
+              Taking Learning to the Next Level
+            </p>
             <ThemeSwitcher />
           </div>
           <div>

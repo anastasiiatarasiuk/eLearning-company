@@ -1,7 +1,18 @@
-.custom-carousel {
+.slider {
   display: flex;
   gap: 25px;
   flex-direction: row-reverse;
+  transition: 0.3s;
+
+  &__group {
+    display: flex;
+    gap: 25px;
+  }
+
+  &__img {
+    width: 400px;
+    min-height: 400px;
+  }
 
   .carousel-inner {
     display: flex;
@@ -9,25 +20,15 @@
     position: relative;
   }
 
-  .slider-img {
-    width: 400px;
-    min-height: 400px;
-  }
-
-  .slide-group {
-    display: flex;
-    gap: 25px;
-  }
-
   .carousel-item {
     display: none;
     justify-content: center;
     align-items: center;
-    transition: 0.6s;
-  }
+    transition: 0.3s;
 
-  .carousel-item.active {
-    display: flex;
+    &.active {
+      display: flex;
+    }
   }
 
   .carousel-control-prev,
@@ -58,43 +59,43 @@
     .active {
       width: 25px;
       height: 25px;
-      background-color: #fff;
+      background-color: var(--white);
     }
   }
 
-  .slide-item {
+  &__item {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     position: relative;
+  }
 
-    .caption {
-      position: absolute;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      z-index: 2;
-    }
+  &__caption {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
 
-    .card-title {
-      font-weight: 400;
-      font-size: 25px;
-      text-align: center;
-      color: #fff;
-      width: 160px;
-    }
+  &__title {
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: var(--white);
+    width: 160px;
+  }
 
-    .icon {
-      fill: none;
-      stroke: #fff;
-      width: 61px;
-      height: 41px;
-      margin-bottom: 12px;
-    }
+  &__icon {
+    fill: none;
+    stroke: var(--white);
+    width: 61px;
+    height: 41px;
+    margin-bottom: 12px;
   }
 }

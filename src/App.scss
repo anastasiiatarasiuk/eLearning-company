@@ -19,7 +19,7 @@ $gray: #B5B7B6;
 $light-subtitle: rgba(255, 255, 255, 0.5);
 $light-gray: #ebebeb;
 
-// Для теми light
+// For light theme
 :root {
   --background: #{$white};
   --text-color: #{$text-color};
@@ -56,7 +56,7 @@ $light-gray: #ebebeb;
   --toggle-bg: #{$light-gray};
 }
 
-// Для теми dark
+// For dark theme
 [data-theme="dark"] {
   --background: #{$background-dark};
   --text-color: #{$white};
