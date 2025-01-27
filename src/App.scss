@@ -1,12 +1,10 @@
-$background-light: #fff;
 $text-color: #212121;
 $secondary-text-color: #999b9a;
-$input-bg-light: rgba(52, 52, 52, 0.1);
-$input-bg-dark:  rgba(255, 255, 255, 0.1);
+$shadow-light: rgba(52, 52, 52, 0.1);
+$shadow-dark:  rgba(255, 255, 255, 0.1);
 $background-dark: #343434;
 $background-light-dark:  #414141;
-$text-color-dark: #fff;
-$background-green:#3D948C;
+$dark-green:#3D948C;
 $white: #fff;
 $form-input-bg: #41a297;
 $footer-bg: #414141;
@@ -18,14 +16,15 @@ $instructional-text: #424242;
 $green: #29B4AD;
 $yellow-light: #dcce90;
 $gray: #B5B7B6;
+$light-subtitle: rgba(255, 255, 255, 0.5);
 
 // Для теми light
 :root {
-  --background: #{$background-light};
+  --background: #{$white};
   --text-color: #{$text-color};
   --secondary-text-color: #{$secondary-text-color};
-  --input-bg: #{$input-bg-light};
-  --background-green: #{$background-green};
+  --input-bg: #{$shadow-light};
+  --background-green: #{$dark-green};
   --white: #{$white};
   --form-input-bg: #{$form-input-bg};
   --footer-bg: #{$footer-bg};
@@ -42,25 +41,33 @@ $gray: #B5B7B6;
   --green:#{$green};
   --yellow-light:#{$yellow-light};
   --gray:#{$gray};
-  --green-full:#{$background-green};
+  --green-full:#{$dark-green};
   --green-stroke:#{$green};
   --icon-close:#{$background-dark};
   --icon-arrow:#{$background-dark};
   --page-number:#{$background-dark};
   --filter-text:#{$background-dark};
+  --chat-bg: #{$white};
+  --message-bg:#{$shadow-light};
+  --message-subtitle: #{$shadow-light};
+  --light-subtitle: #{$light-subtitle};
+  --chat-icons: #{$background-dark};
 }
 
 // Для теми dark
 [data-theme="dark"] {
   --background: #{$background-dark};
-  --text-color: #{$text-color-dark};
+  --text-color: #{$white};
   --card-bg: #{$background-light-dark};
   --background-menu:#{$background-light-dark};
   --section-title:#{$secondary-text-color};
   --instructional-text: #{$white};
-  --input-bg:#{$input-bg-dark};
+  --input-bg:#{$shadow-dark};
   --icon-close: #{$white};
   --input-text:#{$white};
   --page-number:#{$white};
   --filter-text:#{$white};
+  --chat-bg:#{$background-light-dark};
+  --message-bg: #{$shadow-dark};
+  --chat-icons: #{$white};
 }

@@ -1,0 +1,132 @@
+.live-chat {
+  &__toggle-button {
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    background-color: var(--green);
+    border: none;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    box-shadow: 0 0 15px var(--green);
+  }
+
+  &__icon-chat {
+    fill: none;
+    stroke: var(--white);
+    width: 23px;
+    height: 18px;
+  }
+
+  &__widget {
+    position: fixed;
+    bottom: 125px;
+    right: 20px;
+    width: 344px;
+    background-color: var(--chat-bg);
+    box-shadow: 0 4px 15px 0 rgba(52, 52, 52, 0.1);
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    border-radius: 10px;
+  }
+
+  &__icon-user {
+    width: 18px;
+    height: 21px;
+    fill: none;
+    stroke: var(--white);
+  }
+
+  &__title-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  &__subtitle {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--light-subtitle);
+  }
+
+  &__header {
+    background-color: var(--green);
+    color: var(--white);
+    padding: 11px 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px 0 rgba(52, 52, 52, 0.1);
+  }
+
+  &__body {
+    padding: 10px;
+    flex: 1;
+    overflow-y: auto;
+    min-height: 315px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  &__chat-title {
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  &__message {
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: fit-content;
+    background-color: var(--message-bg);
+    margin-left: auto;
+    text-align: right;
+  }
+
+  &__footer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid var(--gray);
+  }
+
+  &__input {
+    flex: 1;
+    padding: 8px 17px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: var(--text-color);
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 19px;
+  }
+
+  &__send-icon {
+    fill: var(--chat-icons);
+    width: 23px;
+    height: 23px;
+    opacity: 0.5;
+    transition: 0.3s;
+
+    &:hover{
+      fill: var(--green);
+      opacity: 1;
+    }
+  }
+
+  &__icon-close {
+    fill: none;
+    stroke: var(--white);
+    width: 15px;
+    height: 15px;
+  }
+}

@@ -3,6 +3,7 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import InstructionalDesign from "./components/InstructionalDesign/InstructionalDesign";
 import LearnDesign from "./components/LearnDesign/LearnDesign";
+import LiveChat from "./components/LiveChat/LiveChat";
 import Navigation from "./components/Navigation/Navigation";
 import OurClients from "./components/OurClients/OurClients";
 import Services from "./components/Services/Services";
@@ -19,6 +20,7 @@ function App() {
       <OurClients />
       <TalkToUs />
       <Footer />
+      <LiveChat />
     </>
   );
 }
