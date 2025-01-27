@@ -110,4 +110,42 @@
       width: fit-content;
     }
   }
+    @media (max-width: 767px) and (min-width: 320px){
+    padding: 20px;
+    &__image {
+      display: none;
+    }
+
+    &__container {
+      margin: 0px;
+    }
+
+    &__content {
+      gap: 0;
+      flex-direction: column;
+    }
+
+    &__title {
+      font-size: 45px;
+
+      &::before {
+        display: none;
+      }
+    }
+
+    &__learning-title {
+      width: fit-content;
+      font-size: 25px;
+    }
+
+    &__learning-list {
+      width: fit-content;
+      font-size: 20px;
+    }
+
+    &__learning-subtitle {
+      width: fit-content;
+      font-size: 16px;
+    }
+  }
 }

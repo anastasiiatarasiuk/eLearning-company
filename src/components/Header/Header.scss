@@ -36,4 +36,21 @@
   @media (max-width: 1399px) and (min-width: 768px) {
     padding: 100px 20px;
   }
+  
+  @media (max-width: 767px) and (min-width: 320px) {
+    padding: 80px 50px;
+
+    &__slider{
+      display: none;
+    }
+    &__content {
+      height: fit-content;
+      gap: 0;
+      justify-content: center;
+    }
+    &__card {
+      padding: 20px;
+      width: fit-content;
+    }
+  }
 }

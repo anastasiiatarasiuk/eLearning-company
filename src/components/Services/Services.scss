@@ -61,6 +61,31 @@
       gap: 15px;
     }
   }
+  
+  @media (max-width: 767px) and (min-width: 320px){
+    padding: 20px;
+    height: fit-content;
+
+    &__image {
+      display: none;
+    }
+
+    &__container {
+      margin: 0px;
+    }
+
+    &__title {
+      &::before {
+        display: none;
+      }
+    }
+    
+    &__filters {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+    }
+  }
 }
 
 .custom-pagination {

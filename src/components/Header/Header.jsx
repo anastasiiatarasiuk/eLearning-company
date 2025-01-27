@@ -18,7 +18,7 @@ const Header = () => {
             </p>
             <ThemeSwitcher />
           </div>
-          <div>
+          <div className="header__slider">
             <Slider />
           </div>
         </div>

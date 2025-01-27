@@ -43,4 +43,8 @@
       }
     }
   }
+  
+  @media (max-width: 767px) and (min-width: 320px){
+    display: none;
+  }
 }
