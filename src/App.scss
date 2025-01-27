@@ -17,6 +17,7 @@ $green: #29B4AD;
 $yellow-light: #dcce90;
 $gray: #B5B7B6;
 $light-subtitle: rgba(255, 255, 255, 0.5);
+$light-gray: #ebebeb;
 
 // Для теми light
 :root {
@@ -52,6 +53,7 @@ $light-subtitle: rgba(255, 255, 255, 0.5);
   --message-subtitle: #{$shadow-light};
   --light-subtitle: #{$light-subtitle};
   --chat-icons: #{$background-dark};
+  --toggle-bg: #{$light-gray};
 }
 
 // Для теми dark
@@ -70,4 +72,5 @@ $light-subtitle: rgba(255, 255, 255, 0.5);
   --chat-bg:#{$background-light-dark};
   --message-bg: #{$shadow-dark};
   --chat-icons: #{$white};
+  --toggle-bg:#{$background-dark};
 }
