@@ -29,8 +29,8 @@
     width: 437px;
     display: flex;
     flex-direction: column;
-    
-    &::after{
+
+    &::after {
       content: '';
       position: absolute;
       width: 25px;
@@ -69,5 +69,38 @@
     line-height: 100%;
     border-radius: 25px;
     background: var(--background-green);
+  }
+
+  @media (max-width: 1399px) and (min-width: 768px) {
+    &__image {
+      display: none;
+    }
+
+    &__title {
+      width: fit-content;
+
+      &::after {
+        display: none;
+      }
+    }
+
+    &__heading {
+      font-size: 50px;
+    }
+
+    &__container {
+      width: 768px;
+    }
+
+    &__content {
+      gap: 20px;
+      margin-bottom: 0px;
+      border-bottom: none;
+    }
+
+    &__subtitle {
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
   }
 }

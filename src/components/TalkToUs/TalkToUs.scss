@@ -25,4 +25,10 @@
     font-size: 20px;
     text-align: center;
   }
+
+    @media (max-width: 1399px) and (min-width: 768px){
+      &__content{
+        padding: 50px;
+      }
+    }
 }

@@ -1,10 +1,12 @@
 .instructional {
   padding: 0px 140px 0 128px;
-&__image{
-  position: absolute;
-}
-  &__container { 
-    margin: 50px 0px 50px 50px; 
+
+  &__image {
+    position: absolute;
+  }
+
+  &__container {
+    margin: 50px 0px 50px 50px;
   }
 
   &__title {
@@ -14,7 +16,7 @@
     margin-bottom: 35px;
     position: relative;
 
-    &::before{
+    &::before {
       content: '';
       position: absolute;
       width: 25px;
@@ -73,5 +75,39 @@
     stroke: var(--yellow);
     margin-right: 10px;
     flex-shrink: 0;
+  }
+
+  @media (max-width: 1399px) and (min-width: 768px) {
+    padding: 50px;
+
+    &__image {
+      display: none;
+    }
+
+    &__container {
+      margin: 0px;
+    }
+
+    &__content {
+      gap: 0;
+    }
+
+    &__title {
+      &::before {
+        display: none;
+      }
+    }
+
+    &__learning-title {
+      width: fit-content;
+    }
+
+    &__learning-list {
+      width: fit-content;
+    }
+
+    &__learning-subtitle {
+      width: fit-content;
+    }
   }
 }

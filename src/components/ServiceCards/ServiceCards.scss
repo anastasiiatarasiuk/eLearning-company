@@ -1,4 +1,8 @@
-.services-list{
+.services-list {
   display: flex;
   gap: 97px;
+
+  @media (max-width: 1399px) and (min-width: 768px) {
+    gap: 50px;
+  }
 }

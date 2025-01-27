@@ -12,9 +12,9 @@
   }
 
   &__work-title {
-color: var(--instructional-text);
-font-weight: 400;
-font-size: 30px;
+    color: var(--instructional-text);
+    font-weight: 400;
+    font-size: 30px;
     margin-bottom: 30px;
   }
 
@@ -51,5 +51,25 @@ font-size: 30px;
     stroke: var(--yellow);
     margin-right: 10px;
     flex-shrink: 0;
+  }
+
+  @media (max-width: 1399px) and (min-width: 768px) {
+    padding: 50px;
+
+    &__container {
+      margin: 0;
+    }
+
+    &__content {
+      gap: 0;
+    }
+
+    &__work-subtitle {
+      width: fit-content;
+    }
+
+    &__work-list {
+      width: fit-content;
+    }
   }
 }

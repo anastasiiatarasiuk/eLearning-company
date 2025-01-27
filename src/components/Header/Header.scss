@@ -32,4 +32,8 @@
       margin-bottom: 55px;
     }
   }
+
+  @media (max-width: 1399px) and (min-width: 768px) {
+    padding: 100px 20px;
+  }
 }

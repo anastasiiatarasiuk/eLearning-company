@@ -117,7 +117,7 @@
     opacity: 0.5;
     transition: 0.3s;
 
-    &:hover{
+    &:hover {
       fill: var(--green);
       opacity: 1;
     }
@@ -128,5 +128,15 @@
     stroke: var(--white);
     width: 15px;
     height: 15px;
+  }
+
+  @media (max-width: 1399px) and (min-width: 768px) {
+    &__widget {
+      width: 300px;
+    }
+
+    &__buttons {
+      gap: 8px;
+    }
   }
 }

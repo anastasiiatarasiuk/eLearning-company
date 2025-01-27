@@ -43,6 +43,20 @@
       color: var(--white);
     }
   }
+
+  @media (max-width: 1399px) and (min-width: 768px) {
+    &__main-container {
+      padding: 50px;
+    }
+
+    &__links-container {
+      gap: 20px;
+    }
+
+    &__logo-container {
+      margin-right: 50px;
+    }
+  }
 }
 
 .footer__copyright-container {
